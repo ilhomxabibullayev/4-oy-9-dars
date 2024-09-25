@@ -19,6 +19,8 @@ console.log(num);
 
 // 4 masala
 
+// 5 masala
+
 let xnum = Number(prompt('soni kiriting'))
 
 let result = '';
@@ -30,8 +32,6 @@ if (xnum % 2 == 0) {
     result = 'toq son'
     console.log(result);
 }
-
-// 5 masala
 
 // 6 masala
 
