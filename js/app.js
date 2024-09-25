@@ -19,6 +19,13 @@ console.log(num);
 
 // 4 masala
 
+let number = [1, 2, -3, 4, 5,- 6, -7]
+
+for (let i = 1; i <= numbers; i++) {
+    number = number + i;
+    console.log(number);
+}
+
 // 5 masala
 
 let xnum = Number(prompt('soni kiriting'))
