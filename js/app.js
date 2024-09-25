@@ -41,12 +41,25 @@ if (xnum % 2 == 0) {
 
 let arr2 = [2,5,9,4];
 
-arr2 = Number;
+let max = numbers[0];
 
-for(let i = 2; i < Number; i++) {
-    console.log(Math.max(Number));
-    console.log(Math.min(Number));
+for(let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > max) {
+        max = numbers[i];
+    }
 }
+
+console.log(max);
+
+let min = numbers[0];
+
+for(let i = 1; i < numbers.length; i++) {
+    if (numbers[i] < min) {
+        min = numbers[i];
+    }
+}
+
+console.log(min);
 
 // 9 masala
 
