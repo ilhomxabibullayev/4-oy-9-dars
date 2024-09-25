@@ -78,13 +78,11 @@ if (true == 1) {
     result2 = 'yes'
     console.log(result2);
 } else if (false == 0) {
-    result2 = 'toq son'
+    result2 = 'no'
     console.log(result2);
 }
 
 // 10 masala
-
-
 
 // 11 masala
 
@@ -96,4 +94,3 @@ for (let i = 1; i <= n; i++) {
 }
 
 // 12 masala
-
