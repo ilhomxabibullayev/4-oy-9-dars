@@ -1,5 +1,12 @@
 // 1 masala
 
+let numbers = [1, 2, 3, 4, 5, 6, 7];
+
+for (let i = 1; i <= numbers; i++) {
+    numbers = numbers + i;
+    console.log(numbers);
+}
+
 // 2 masala
 
 let num = 256;
@@ -32,28 +39,39 @@ if (xnum % 2 == 0) {
 
 // 8 masala
 
-let max = function (...numbers) {
-    let result = -Infinity;
-    for (let number of numbers) {
-        if (number > result) result = number;
-    }
-    return result;
-}
+let arr2 = [2,5,9,4];
 
-console.log(max(2, 5, 9, 4));
+arr2 = Number;
+
+for(let i = 2; i < Number; i++) {
+    console.log(Math.max(Number));
+    console.log(Math.min(Number));
+}
 
 // 9 masala
 
-let arr = [2,5,9,4]
+let bool = Boolean(prompt('boolean qiymat kiriting'));
 
-let number = (arr) => {
-    let max = Math.max.apply(null, arr);
-    let min = Math.min.apply(null, arr);
+let result2 = '';
+
+if (bool == true) {
+    result2 = 'yes'
+    console.log(result2);
+} else if (bool == false) {
+    result2 = 'toq son'
+    console.log(result2);
 }
 
 // 10 masala
 
 // 11 masala
+
+let n = 5;
+
+for (let i = 1; i <= n; i++) {
+    n = n + i;
+    console.log(n);
+}
 
 // 12 masala
 
