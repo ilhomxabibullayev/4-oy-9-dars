@@ -74,15 +74,17 @@ let bool = Boolean(prompt('boolean qiymat kiriting'));
 
 let result2 = '';
 
-if (bool == true) {
+if (true == 1) {
     result2 = 'yes'
     console.log(result2);
-} else if (bool == false) {
+} else if (false == 0) {
     result2 = 'toq son'
     console.log(result2);
 }
 
 // 10 masala
+
+
 
 // 11 masala
 
