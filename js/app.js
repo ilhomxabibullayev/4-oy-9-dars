@@ -1,10 +1,10 @@
 // 1 masala
 
-let numbers = [1, 2, 3, 4, 5, 6, 7];
+let son = [1, 2, 3, 4, 5, 6, 7];
 
-for (let i = 1; i <= numbers; i++) {
-    numbers = numbers + i;
-    console.log(numbers);
+for (let i = 0; i <= son; i++) {
+    son += i;
+    console.log(son[i]);
 }
 
 // 2 masala
@@ -19,9 +19,9 @@ console.log(num);
 
 // 4 masala
 
-let number = [1, 2, -3, 4, 5,- 6, -7]
+let number = [1, 2, -3, 4, 5, - 6, -7]
 
-for (let i = 1; i <= numbers; i++) {
+for (let i = 1; i <= number; i++) {
     number = number + i;
     console.log(number);
 }
@@ -46,11 +46,11 @@ if (xnum % 2 == 0) {
 
 // 8 masala
 
-let arr2 = [2,5,9,4];
+let numbers = [2, 5, 9, 4];
 
 let max = numbers[0];
 
-for(let i = 1; i < numbers.length; i++) {
+for (let i = 1; i < numbers.length; i++) {
     if (numbers[i] > max) {
         max = numbers[i];
     }
@@ -60,13 +60,13 @@ console.log(max);
 
 let min = numbers[0];
 
-for(let i = 1; i < numbers.length; i++) {
+for (let i = 1; i < numbers.length; i++) {
     if (numbers[i] < min) {
         min = numbers[i];
     }
 }
 
-console.log(min);
+// console.log(min);
 
 // 9 masala
 
@@ -88,9 +88,9 @@ if (true == 1) {
 
 let n = 5;
 
-for (let i = 1; i <= n; i++) {
-    n = n + i;
-    console.log(n);
+for (let i = 0; i <= n; i++) {
+    n += i;
+    console.log(n[i]);
 }
 
 // 12 masala
